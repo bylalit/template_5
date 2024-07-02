@@ -12,13 +12,14 @@
     align-items: center;
     justify-content: center;
     background-color: rgb(242 243 241);
+    padding: 20px;
 }
 
 .hero .left{
     width: 50%;
     height: 100vh;
-    margin: 20px;
     position: relative;
+    padding-top: 20px;
 }
 
 .hero .left h4{
@@ -122,5 +123,30 @@
 .hero .right{
     width: 50%;
     height: 100vh;
-    background-color: rgb(236, 236, 119);
+    /* background-color: rgb(236, 236, 119); */
+    padding: 20px;
+}
+
+.hero .right .img{
+    width: 100%;
+    background-image: url(imesage/main.jpeg);
+    background-size: cover;
+    height: 70vh;
+    background-position: center;
+    position: relative;
+}
+
+.hero .right .img .text{
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    left: 10px;
+}
+.hero .right .img .text h4{
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+
+.hero .right .img .text h6{
+    font-size: 10px;
 }
