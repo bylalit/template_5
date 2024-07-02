@@ -17,7 +17,8 @@
 .hero .left{
     width: 50%;
     height: 100vh;
-    padding: 20px;
+    margin: 20px;
+    position: relative;
 }
 
 .hero .left h4{
@@ -45,6 +46,7 @@
     border-radius: 3px;
     background-color: rgb(210, 222, 239);
     font-size: 9px;
+    cursor: pointer;
 }
 
 
@@ -102,7 +104,13 @@
     position: absolute;
     bottom: 25px;
     width: 100%;
-    
+    padding: 6px 0;
+    background-color: orange;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bolder;
 }
 
 
