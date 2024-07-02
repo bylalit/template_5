@@ -150,3 +150,16 @@
 .hero .right .img .text h6{
     font-size: 10px;
 }
+
+.hero .right .footer{
+    width: 100%;
+    display: flex;
+    gap: 22px;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .right .footer img{
+    width: 30%;
+}
